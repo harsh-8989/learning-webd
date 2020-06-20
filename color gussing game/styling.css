@@ -1,0 +1,73 @@
+body{
+    background-color: black;
+    margin: 0%;
+    transition: all 0.5s ease;
+}
+header{
+    background-color:#4682B4 ;
+    text-transform: uppercase;
+    font-size: 33px;
+    font-weight: 400;
+    color: white;
+    padding: 20px 0;
+    font-family: serif;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+header p{
+    margin: 0;
+}
+#gussing-color{
+    font-size: 55px;
+}
+
+nav{
+    background-color: white;
+ 
+    text-align: center;
+    transition: all 0.5s ease;
+    text-transform: uppercase;
+}
+#result{
+    display: inline-block;
+    width: 20%;
+    margin: 0em 1%;
+}
+nav button:active, .active{
+    color: white;
+    
+    background-color: #4682B4;
+}
+nav button:hover{
+    color: white;
+    background-color: #4682B4;
+}
+nav button{
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #4682B4;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 5px;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+.box{
+    /* max-width: 100px;
+    max-height: 100px; */
+    background-color: #023B7C;
+    border-radius: 20px; 
+    padding: 15%;
+    outline: none;
+    float: left;
+    margin:1.33%;
+    border: none;
+    transition: all 0.3s ease;
+}
+#color-box{
+    max-width: 600px;
+    position: relative;
+    margin: 15px auto;
+}
