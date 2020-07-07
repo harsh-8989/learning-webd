@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fruit slicing game</title>
+    <link rel="stylesheet" href="css/styling.css">
+    <script src="js/lib/jquery-3.5.1.min.js"></script>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet"> -->
+</head>
+<body>
+
+    <div id="container">
+        <div id="game-over" >
+            Game Over! <br>your score is <span id="scorevalue"></span>
+        </div>
+        <header>
+            <p id="trail-left">x x x</p>
+            <p id="score">Score: 0</p>
+        </header>
+        <div class="clear"></div>
+        <div id="fruitbox">
+            <img id="fruit">
+           
+        </div>
+        <div id="instruction">Catch Fruits</div>
+       
+        <br>
+        <div class="clear"></div>
+        <div id="start">
+            <button id="start-button">Start Game</button>
+        </div>
+    </div>
+    <audio src="audio/slice_sound.mp3" id="slice-sound"></audio>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/javascript.js"></script>
+    
+</body>
+</html>

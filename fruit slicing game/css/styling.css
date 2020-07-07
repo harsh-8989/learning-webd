@@ -1,0 +1,127 @@
+html{
+    background: radial-gradient(circle, #fff, #ccc);
+    background: -webkit-radial-gradient(circle, #fff, #ccc);   
+    background: -o-radial-gradient(circle, #fff, #ccc);   
+    background: -moz-radial-gradient(circle, #fff, #ccc);
+}
+header p:first-child{
+    color: white;
+    float: left;
+    width: 90px;
+    margin-left:20px;
+    border-radius: 3px;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px 15px;
+    display: none;
+    background-color: #F1FF92;
+}
+
+#container{
+    background-color: #9DD2EA;
+    width: 750px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 0px 0px #009de4;
+    -moz-box-shadow: 0px 4px 0px 0px #009de4;
+    -webkit-box-shadow: 0px 4px 0px 0px #009de4;
+    margin: 0 auto;
+    margin-top:50px ;
+    position: relative;
+    padding: 10px;
+}
+
+
+#instruction{
+    background-color: #B481D9;
+    box-shadow: 0px 4px #8153a8;
+    -moz-box-shadow: 0px 4px #8153a8;
+    -webkit-box-shadow: 0px 4px #8153a8;
+    margin: 10px auto 0 auto;
+    width: 450px;
+    text-align: center;
+    padding:20px 0px 20px 0px;
+   
+}
+#game-over{
+    position: absolute;
+    z-index: 3;
+    width: 475px;
+    height: 150px;
+    line-height: 60px;
+    top: 190px;
+    left: 140px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 40px;
+    display: none;
+    background: linear-gradient(#F3CA6B,#F3706C);
+}
+#start-button{
+
+    margin: 0 auto;
+    display: block;
+    align-content: center;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #CEE9F5;
+    outline: none;
+    border: none;
+    box-shadow: 0px 4px #7EA8BB;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+}
+#start-button:active{
+    margin-top: 4px;
+    box-shadow: none;
+
+}
+#fruit{
+    width: 100px;
+    height: 100px;
+    border: none;
+    top: -100px;
+    float: left;
+    position: relative;
+}
+#fruit:hover{
+    cursor: crosshair;
+}
+#fruitbox{
+    background-color: white;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 600;
+    overflow: hidden;
+    font-size: 130px;
+    width: 650px;
+    height: 400px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 0px 4px #535aa8;
+    -moz-box-shadow: 0px 4px #535aa8;
+    -webkit-box-shadow: 0px 4px #535aa8;
+}
+.hide{
+    display: none;
+}
+.clear{
+    clear: both;
+}
+
+#score{
+    color: #888E5F;
+    float: right;
+    margin-right: 18px;
+    padding: 10px 15px;
+    background-color:#F1FF92 ;
+    box-shadow: 0px 4px 0px #9da853;
+    -moz-box-shadow: 0px 4px 0px #9da853;
+    -webkit-box-shadow: 0px 4px 0px #9da853;
+}
+.heart{
+    padding: 0 5px;
+}
